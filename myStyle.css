@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 640px;
+    border: 3px solid rgb(92, 92, 155);
+    padding: 0 2em 1em;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+	text-align: right;
+	margin-right: 0.5em;
+}
+#totalexpense {
+    background-color: #eee;
+}
+
+span{
+    color:red;
+}
+
+.messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+input, textarea {
+    margin-left: 1em;
+    margin-right: .5em;
+}
+
+textarea {
+	width: 37em;
+	height: 8em;
+	font-size: 120%;
+}
+
+.input1 {
+    width: 15px;
+  }
+
+img{
+    border-radius: 5%;
+}
+
+#image_list{
+    display: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gustavo's Pizzeria</title>
+        <link rel="stylesheet" href="myStyle.css" />
+    </head>
+    <body>
+        <ul id="image_list">
+            <li><a href="images/logo1.PNG" title="Logo 1 black">
+            </a></li>
+            <li><a href="images/logo2.PNG" title="Logo 2 blue">
+            </a></li>
+            <li><a href="images/logo3.PNG" title="Logo 3 Silver!">
+            </a></li>
+        </ul>
+        <h1><img id="main_image" src="images/logo1.PNG"></h1>
+        <fieldset>
+            <legend>Customer Info:</legend>
+            <div>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            </div>
+            <div>
+            <label for="delivery">Delivery Date:</label>
+            <input type="date" id="delivery" name="delivery">
+            </div>
+            <div>
+            <label for="order"></label>
+                <input type="button" id="clear" value="Clear Fields">
+                <input type="button" id="order" value="Start Order">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Build your Pizza:</legend>
+            <div>
+                <label for="Quantity">Quantity:</label>
+                <input type="text" class="input1" id="quantity" name="quantity" disabled value="1">
+                </div>
+            <div>
+                <label>Size:</label>
+                <input type="radio" name="item" id="Large"
+                    value="Large" disabled checked>Large $35.00
+                <input type="radio" name="item" id="Medium"
+                    value="Medium" disabled>Medium $25.00
+                <input type="radio" name="item" id="Small"
+                    value="Small" disabled>Small $15.00
+            </div>
+            <div>
+                 <label for="add"></label>
+                 <input type="button" id="add" value="Add Item" disabled>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Order Details:</legend>
+            <div>
+                <textarea name="orders" id="orders" row="5" cols="80" disabled></textarea>
+            </div>
+            <div>
+                <label for="place"></label>
+                <input type="button" id="place" value="Place Order" disabled>
+                <input type="button" id="neworder" value="Start New Order" disabled>
+                </div>
+        </fieldset>
+        <script src="MyFunction.js"></script>
+    </body>
+</html>
